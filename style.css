@@ -1,12 +1,12 @@
 body {
-  background-color: #FFF;
+  background-color: #EEEFF1;
   margin: 0;
   padding: 0;
 }
 
 #cover {
   background:
-  url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat center bottom;
+  url("https://i.ytimg.com/vi/Ci8dOMPUgfM/maxresdefault.jpg") no-repeat center bottom;
   background-size:cover;
   background-attachment: fixed;
   height: 900px;
@@ -33,7 +33,7 @@ ul {
 li {
   color: #14213D;
   display: inline-block;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 300;
   margin: 16px 20px;
@@ -41,8 +41,8 @@ li {
 }
 
 #logo {
-  color: #FCA311;
-  font-family: 'Amatic SC', cursive;
+  color: #BB2909;
+  font-family: 'Raleway', cursive;
   font-size: 32px;
   padding: 0px 50px;
 }
@@ -57,8 +57,8 @@ li {
 }
 
 h1 {
-  color: #FFF;
-  font-family: 'Amatic SC', cursive;
+  color: #BB2909;
+  font-family: 'Raleway';
   font-size: 72px;
   line-height: 60px;
   padding: 20px 10px;
@@ -75,17 +75,18 @@ h2 {
 
 h3 {
   color: #14213D;
-  font-family: 'Abel', sans-serif;
-  font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
   text-align: center;
-  text-transform: uppercase;
+
 }
 
 h4 {
-  color: #FCA311;
-  font-family: 'Abel', sans-serif;
-  font-size: 24px;
-  margin: 0px 0px 50px 0px;
+  color: #14213D;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
 }
 
 p {
@@ -93,19 +94,11 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 300;
+  text-align: justify;
 }
 
 a {
   text-decoration: none;
-}
-
-.btn {
-  background-color: #14213D;
-  color: #FFF;
-  font-family: 'Amatic SC', cursive;
-  font-size: 26px;
-  padding: 14px;
-  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
 }
 
 .products {
@@ -124,6 +117,9 @@ a {
   width: 45%;
 }
 
+.contact{
+    text-align: center;
+}
 .product img {
   width:100%;
 }
