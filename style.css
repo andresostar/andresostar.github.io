@@ -26,18 +26,67 @@ body {
   z-index: 10000;
 }
 
-ul {
+ul.a {
   padding: 0;
 }
 
-li {
+li.a {
   color: #14213D;
   display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 300;
   margin: 16px 20px;
+  padding: 0;
   text-transform: uppercase;
+ }
+
+ul.projects {
+	list-style-type: none;
+} 
+ 
+ul.projects li.b {
+  color: #14213D;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  line-height:200%;
+} 
+
+.skill-html{
+	background-color:E5A227;
+	box-sizing: border-box;
+	width:100%;
+	padding: 20px 0px;
+	margin: 20px auto;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.projects-button {
+  box-sizing: border-box;
+  width:100%;
+  padding: 20px 0px;
+  background-color:#D6DBDF;
+  opacity: 0.9;
+  margin: 20px auto;
+  color: #14213D;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.projects-button:hover {
+	background: #979A9A; 
+}
+
+.active{
+	background-color:#D6DBDF;
+	color:#14213D;
+}
+
+.description {
+	background-color:whitesmoke;
 }
 
 #logo {
@@ -101,6 +150,7 @@ a {
   text-decoration: none;
 }
 
+
 .products {
   background: #EEEFF1;
   box-sizing: border-box;
@@ -117,9 +167,6 @@ a {
   width: 45%;
 }
 
-.contact{
-    text-align: center;
-}
 .product img {
   width:100%;
 }
@@ -127,3 +174,8 @@ a {
 .blue {
   color: #14213D !important;
 }
+
+.btn{
+	text-align:center;
+}
+
