@@ -43,21 +43,21 @@ li.a {
 
 ul.projects {
 	list-style-type: none;
-} 
- 
+}
+
 ul.projects li.b {
   color: #14213D;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   text-align: justify;
   line-height:200%;
-} 
+}
 
 ul.nested{
 	list-style-type: none;
 }
 
-.sciences .courses{
+.sciences .courses .arts .work{
 	background-color:E5A227;
 	box-sizing: border-box;
 	width:100%;
@@ -81,7 +81,11 @@ ul.nested{
 }
 
 .projects-button:hover {
-	background: #979A9A; 
+	background: #979A9A;
+}
+
+.image{
+  width:100%;
 }
 
 .active{
@@ -181,4 +185,3 @@ a {
 .btn{
 	text-align:center;
 }
-
